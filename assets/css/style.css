@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    height: 100%;
+    margin: 0;
+    background-image: url("trees.png");
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 50px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffffff;
+}
+li {
+    float: right;
+    color: #777777;
+}
+li a {
+    display: block;
+    color: #777777;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ffffff;
+}
+.active {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    margin-left: 290px;
+    font-size: 24px;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+.wrapper {
+    min-height: 100%;
+    margin-bottom: 50px;
+}
+.about {
+    margin: auto;
+    width: 960px;
+    padding: 10px;
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+}
+h2 {
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+p {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+.push {
+    height: 50px;
+}
+.footer {
+    height: 50px;
+    border-top: 8px solid #4aaaa5;
+    background-color: #666666;
+    text-align: center;
+    color: #ffffff;
+    font-size: 12px;
+}
