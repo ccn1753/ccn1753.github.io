@@ -9,6 +9,7 @@ body {
 .header {
     background-color: #ffffff;
     margin-bottom: 50px;
+    border-bottom: 2px solid #ccc;
 }
 nav {
     width: 960px;
@@ -27,6 +28,7 @@ ul {
 li {
     float: right;
     color: #777777;
+    border-left: 1px solid #efefef;
 }
 li a {
     display: inline-block;
@@ -60,6 +62,10 @@ li a:hover:not(.active) {
     background-color: #ffffff;
 }
 h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }

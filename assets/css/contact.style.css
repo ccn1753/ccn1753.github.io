@@ -27,6 +27,7 @@ ul {
 li {
     float: right;
     color: #777777;
+    border-left: 1px solid #efefef;
 }
 li a {
     display: inline-block;
@@ -60,6 +61,10 @@ li a:hover:not(.active) {
     background-color: #ffffff;
 }
 h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #ddd;
     color: #4aaaa5;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
 }
@@ -72,23 +77,27 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-input[type=submit] {
+input[type=message], select {
     width: 100%;
-    background-color: #4CAF50;
-    color: white;
-    padding: 14px 20px;
+    padding: 100px 20px;
     margin: 8px 0;
-    border: none;
+    display: inline-block;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    cursor: pointer;
+    box-sizing: border-box;
 }
-input[type=submit]:hover {
-    background-color: #45a049;
+input[type=submit] {
+    padding: 10px 30px;
+    font-size: 18px;
+    color: #ffffff;
+    cursor: pointer;
+    background: #4aaaa5;
+    border: 0 none;
 }
 div {
-    border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
 }
 .push {
     height: 50px;
