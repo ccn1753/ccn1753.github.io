@@ -6,24 +6,35 @@ body {
     margin: 0;
     background-image: url("trees.png");
 }
+.header {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+}
+nav {
+    width: 960px;
+    margin: 0 auto;
+}
+.clearfix {
+    overflow: auto;
+}
 ul {
     list-style-type: none;
     margin: 0;
-    margin-bottom: 50px;
     padding: 0;
     overflow: hidden;
-    background-color: #ffffff;
+    float: right;
 }
 li {
     float: right;
     color: #777777;
 }
 li a {
-    display: block;
+    display: inline-block;
     color: #777777;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    line-height: 24px;
 }
 li a:hover:not(.active) {
     background-color: #ffffff;
@@ -31,9 +42,11 @@ li a:hover:not(.active) {
 .active {
     background-color: #4aaaa5;
     color: #ffffff;
-    margin-left: 290px;
     font-size: 24px;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
+    padding: 20px;
+    float: left;
+    text-decoration: none;
 }
 .wrapper {
     min-height: 100%;
